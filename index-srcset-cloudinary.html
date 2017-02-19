@@ -1,0 +1,28 @@
+<html>
+
+<head>
+  <link rel="shortcut icon" href="http://cloudinary.com/images/favicon-32x32.png" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    img {
+      max-width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Responsive images and art direction with srcset using Cloudinary</h1>
+  <img srcset="
+             https://res.cloudinary.com/demo/w_425/l_text:montserrat_60:425px,g_south_west,co_white/car_lady_dog.jpg 425w,
+             https://res.cloudinary.com/demo/w_992/l_text:montserrat_72:992px,g_south_west,co_white/car_lady_dog.jpg 992w,
+             https://res.cloudinary.com/demo/w_1984/l_text:montserrat_82:1984x,g_south_west,co_white/car_lady_dog.jpg 1984w"
+    sizes="
+            (max-width: 500px) 425px,
+            (max-width: 800px) 750px,
+            100vw" img="https://res.cloudinary.com/demo/w_1984/l_text:montserrat_60:1984px,g_south_west,co_white/car_lady_dog.jpg"
+    alt="Lady in car with dog">
+</body>
+
+</html>

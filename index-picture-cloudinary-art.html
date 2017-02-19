@@ -1,0 +1,24 @@
+<html>
+
+<head>
+  <link rel="shortcut icon" href="http://cloudinary.com/images/favicon-32x32.png" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    img {
+      max-width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Responsive images with &lt;picture&gt; and <i>art direction</i> using Cloudinary</h1>
+  <picture>
+    <source media="(max-width: 500px)" srcset="https://res.cloudinary.com/demo/w_425,c_thumb,g_auto/car_lady_dog.jpg">
+    <source media="(max-width: 800px)" srcset="https://res.cloudinary.com/demo/w_992,c_thumb,g_auto/car_lady_dog.jpg">
+    <img src="https://res.cloudinary.com/demo/w_1984,c_thumb,g_auto/car_lady_dog.jpg" alt="Lady in car with dog">
+  </picture>
+</body>
+
+</html>

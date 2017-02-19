@@ -1,0 +1,24 @@
+<html>
+
+<head>
+    <link rel="shortcut icon" href="http://cloudinary.com/images/favicon-32x32.png" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        img {
+            max-width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+<h1>Responsive images with &lt;picture&gt;</h1>
+    <picture>
+        <source media="(max-width: 500px)" srcset="dolomites-425.jpg">
+        <source media="(max-width: 800px)" srcset="dolomites-992.jpg">
+        <img src="dolomites-1984.jpg" alt="Dolomites">
+    </picture>
+</body>
+
+</html>
