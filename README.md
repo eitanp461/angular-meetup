@@ -1,7 +1,8 @@
 # angular-meetup
 
-This repository accompanies the [AngularJS IL Meetup](https://www.meetup.com/AngularJS-IL/events/237399998/) that took place on 
-Monday, February 20, 2017.
+This repository showcases responsive images solutions.
+
+You can find an interactive version [here](https://glitch.com/edit/#!/responsive-images)
 
 Install dependencies with `npm install`.
 
